@@ -1,0 +1,28 @@
+.reveal {
+  opacity: 0;
+  transition: all 500ms ease;
+  /* transform:translateX(100px); */
+}
+
+.small-reveal {
+    opacity: 0;
+    transition: all 500ms ease;
+    /* transform:translateX(100px); */
+  }
+
+.left{
+    transform: translateX(200px);
+}
+
+.right{
+    transform: translateX(-200px);
+}
+
+.delay{
+    transition-delay: 50ms;
+}
+
+.active {
+  opacity: 1;
+  transform:translateX(0);
+}
