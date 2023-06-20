@@ -41,7 +41,7 @@ export default function Buffer() {
             data-aos="fade-up"
             data-aos-offset={300}
           >
-            ... Let &apos s know me 😊
+            ... Let&apos;s know me 😊
           </p>
         </div>
 
