@@ -1,3 +1,4 @@
+// @ts-ignore
 import Aos from "aos";
 import Image from "next/image";
 import AboutBg from "../../../public/about-bg.svg";
@@ -40,7 +41,7 @@ export default function Buffer() {
             data-aos="fade-up"
             data-aos-offset={300}
           >
-            ... Let's know me 😊
+            ... Let &apos s know me 😊
           </p>
         </div>
 

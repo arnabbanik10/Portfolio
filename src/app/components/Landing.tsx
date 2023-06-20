@@ -1,3 +1,4 @@
+// @ts-ignore
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";

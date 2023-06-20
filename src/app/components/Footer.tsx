@@ -1,3 +1,4 @@
+// @ts-ignore
 import Aos from "aos";
 import Image from "next/image";
 import React, { useEffect } from "react";
@@ -22,14 +23,14 @@ export default function Footer() {
           data-aos="fade-up"
           data-aos-offset={200}
         >
-          I'll See You On The Other Side 😉
+          I &apos ll See You On The Other Side 😉
         </p>
         <p
           className="text-lg text-end mb-10"
           data-aos="fade-up"
           data-aos-offset={100}
         >
-          ... Till Then, Let's chat
+          ... Till Then, Let &apos s chat
         </p>
         <div className="flex gap-8 mb-10 items-center justify-center text-xl" data-aos="fade-left">
         <Link href={'www.mail.google.com'}>

@@ -12,6 +12,7 @@ export default function About() {
 
   const handleScroll = (e: any) => {
     if (scrollToRef.current) {
+      // @ts-ignore
       scrollToRef.current.scrollIntoView({behaviour: 'smooth'});
     }
     const el = document.querySelectorAll(".reveal");
